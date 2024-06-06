@@ -2,7 +2,7 @@
 
 from flask import Flask
 from flask_migrate import Migrate
-
+from sqlalchemy import func
 from models import db
 
 # create a Flask application instance 
